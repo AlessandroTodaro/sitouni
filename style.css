@@ -1,0 +1,701 @@
+
+@font-face 
+{
+    font-family:"bohemia";
+    src:url("fonts/Bohemia/Bohemia-LT-Std-Small-Caps_7874.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+
+
+body {
+  
+  background-color: whitesmoke;
+  margin: 0;
+  width: 100%;
+  
+}
+
+
+
+
+header {
+  padding: 1vw;
+  background-color: transparent;
+  height: auto;
+  top: 0;
+  width: auto;
+  text-align: center;
+}
+header img{
+  width: 4vw;
+  text-align: center;
+}
+@media only screen and (max-width:426px) {
+  header img{
+  width: 100px;
+}
+
+}
+
+
+
+nav {
+  background-color: rgb(219, 138, 31);
+  
+  top: 0;
+  background-color: burlywood;
+  text-align: center;
+  
+}
+
+
+nav ul {
+  list-style: none;
+  /* Per togliere i puntini della lista */
+  margin: 0;
+  /* Toglie distanza laterale */
+  padding: 0;
+  /* Toglie distanza laterale */
+  
+}
+
+
+nav li a {
+  text-decoration: none;
+  /* Toglie le decorazioni testo*/
+  color: white;
+}
+
+
+
+
+nav li {
+  display: inline-block;
+  /* Li dispone orizzonatlamente */
+  padding: 25px;
+}
+
+@media only screen and (max-width:426px) {
+  nav li{
+    display: block;
+    
+  }
+
+}
+
+nav li:hover {
+  background-color: gray;
+}
+
+.menu  .pagina{
+  background-color: gray;
+}
+
+.immagine {
+  width: 100%;
+  height: 65vw;
+}
+#immaginehome {
+  position: relative;
+  text-align: center;
+}
+
+#immaginehome h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7vw;
+  background: rgb(204, 204, 204); 
+  background: rgba(204, 204, 204, 0.5);
+  font-family: "bohemia";
+}
+@media only screen and (max-width:426px) {
+  #immaginehome h2{
+  position: absolute;
+  font-size: 40px;
+}
+}
+
+#immaginehome .scopri{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(228, 184, 127);
+  color: white;
+  font-size: 16px;
+  padding: 15px 60px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media only screen and (max-width:426px) {
+  #immaginehome .scopri{
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-top: 3%;
+}
+}
+
+
+.container{
+  font-size: 3vw;
+  font-family: 'bohemia'; 
+}
+@media only screen and (max-width:426px) {
+  .container{
+  margin-top: 30px;
+  padding-bottom: 15px;
+
+}
+}
+.container hr{
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: burlywood;
+  padding: 0.1vw;
+  border: none;
+}
+@media only screen and (max-width:426px) {
+  .container hr{
+  padding: 1.5px;
+}
+}
+.container p,h2{
+margin-top: 3vw;
+text-align: center;
+}
+.container p{
+  font-size: 2vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid;
+  padding: 10vw;
+}
+@media only screen and (max-width:426px) {
+  .container p{
+  margin-top: 20px;
+}
+}
+
+
+
+.container img{
+    width: 20vw;
+    float: left;
+   margin-right: 3vw;
+   margin-left: 5vw;
+   border: solid;
+  box-shadow: burlywood 10px 10px;
+  margin-top: 7vh;
+  
+  
+}
+.opere{
+  padding: 4vw;
+  background-color: rgb(58, 58, 58);
+  width: 100%;
+margin-top: 3vw;
+}
+
+.opere p{
+  color: white;
+  text-align: left;
+}
+
+.opere a{
+  background-color: rgb(228, 184, 127);
+  color: white;
+  font-size: 1.3vw;
+  padding: 1vw 1.2vw;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.avviso{
+margin-top: 30vw;
+}
+
+.avviso h5{
+  font-weight: 300;
+  text-align: left;
+  
+}
+.avviso a{
+  text-decoration: none;
+  color: black;
+  border: solid;
+  padding: 1vw;
+
+}
+.colonna{
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 0.5vw;
+}
+
+.colonne img{
+width: 25vw;
+}
+
+@media only screen and (max-width:426px) {
+  .colonne img{
+  width: 25vw;
+}
+}
+
+.colonne .links{
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  padding: 0.2vw;
+}
+
+
+
+.colonne a:hover{
+  background-color: rgb(204, 204, 204);
+}
+.colonne h3, p{
+  font-size: 1vw;
+  text-align: left;
+}
+@media only screen and (max-width:426px) {
+  .colonne h3{
+  font-size: 2.5vw;
+}
+}
+.colonne p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media only screen and (max-width:426px) {
+  .colonne p{
+  font-size: 1.3vw;
+}
+}
+.colonne{
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+@media only screen and (max-width:426px) {
+  .colonne{
+  font-size: 2.5vw;
+}
+}
+
+.colonne hr{
+  margin-left: 1vw;
+  margin-right: 5vw;
+  color: burlywood;
+  border: solid;
+}
+
+.ilnostropassato{
+  text-align: center;
+padding-bottom: 3vw;
+padding-top: 3vw;
+  margin-top: 23vw;
+  background: rgb(204, 204, 204); 
+  background: rgba(204, 204, 204, 0.5);
+}
+
+@media only screen and (max-width:426px) {
+  .ilnostropassato{
+  margin-top: 50vw;
+}
+}
+
+.ilnostropassato h1{
+  font-size: 4vw;
+}
+
+@media only screen and (max-width:426px) {
+  .ilnostropassato h1{
+  font-size: 10vw;
+}
+}
+
+.ilnostropassato h2{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: oblique;
+  font-weight: 100;
+  
+}
+@media only screen and (max-width:426px) {
+  .ilnostropassato h6{
+  font-size: 3vw;
+}
+}
+
+.ilnostropassato p{
+  text-align: center;
+  margin-left: 20vw;
+  margin-right: 20vw ;
+  margin-bottom: 2.5vw;
+  font-size: 1.8vw;
+}
+
+@media only screen and (max-width:426px) {
+  .ilnostropassato p{
+  font-size: 3.5vw;
+}
+}
+
+.ilnostropassato a{
+  
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width:426px) {
+  .ilnostropassato a{
+  font-size: 3vw;
+  
+}
+}
+
+.logo{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  margin-top: 3vw;
+}
+
+@media only screen and (max-width:426px) {
+  .logo{
+  width: 100px;
+}
+}
+
+video{
+  width: 100%;
+  margin-top: 3vw;
+}
+
+footer{
+  padding: 1vw;
+  width: auto;
+  background-size: cover;
+ background-color: rgb(204, 204, 204);
+ bottom: 0;
+}
+footer img{
+  width: 7vw;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.footercontenuto{
+  border: solid;
+  margin-bottom: 10vw;}
+
+  .storia{
+    margin-top:6vw;
+  font-size: 2vw;
+  text-align: center;
+  }
+  .storia p{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+ .storia1{
+   background-color: rgb(204, 204, 204);
+   padding: 3vw;
+   text-align: center;
+ }
+
+.prenota{
+  text-align: center;
+}
+
+  .storia1 h1{
+    margin-top: 8vw;
+    margin-left: 10vw;
+  margin-right: 30vw;
+  font-size: 3vw;
+  }
+
+.storia1 img{
+  width: auto;
+  float: right;
+  margin-right: 3vw;
+  height: 30vw;
+
+  
+}
+.storia1 p{
+  text-align: center;
+ margin-left: 10vw;
+ margin-right: 30vw;
+ 
+ font-size: 1.5vw;
+
+}
+
+
+.storia2{
+  background-color: rgb(204, 204, 204);
+  padding: 3vw;
+  margin-top: 4vw;
+}
+.storia2 h1{
+  margin-top: 8vw;
+  margin-right: 10vw;
+margin-left: 30vw;
+font-size: 3vw;
+
+}
+.storia2 img{
+  width: auto;
+  float: left;
+  margin-right: 3vw;
+  height: 30vw;
+  margin-top: -15.5vw;
+
+ 
+}
+
+.storia2 p{
+  text-align: center;
+  margin-right: 10vw;
+ margin-left: 30vw;
+ font-size: 1.5vw;
+}
+.mappa h1{
+  text-align: center;
+  font-size: 3vw;
+}
+.mappa p{
+  margin: auto;
+  width: 50%;
+  font-size: 2vw;
+  padding: 3vw;
+  margin-top: 3vw;
+  text-align: center;
+}
+.mappa img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mappa hr{
+  margin-left: 20vw;
+  margin-right: 20vw;
+  color: burlywood;
+  border: solid 2px;
+  
+}
+
+.orariapertura h1{
+  text-align: center;
+  font-size: 3vw;
+}
+
+table{
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vw;
+  font-size: 2vw;
+ 
+}
+table, th, td{
+  
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.comearrivare h1{
+font-size: 3vw;
+text-align: center;
+}
+.comearrivare p{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+
+}
+.comearrivare hr{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  
+}
+
+.comearrivare h1,p{
+  color: black;
+ 
+}
+.indicazioni{
+  border: solid;
+
+}
+
+.mappa{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5vw;
+}
+.indicazioni1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: burlywood;
+  text-align: center;
+}
+.divisore{
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+
+
+.primo, .secondo {
+display: inline;
+margin-left: auto;
+margin-right: auto;
+font-size: 1.4vw;
+}
+@media only screen and (max-width:426px) {
+  .primo, .secondo{
+  font-size: 3vw;
+  text-align: center;
+}
+}
+
+.primo{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.indirizzo1{
+  display: flex;
+}
+
+.divisore1{
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+.prenota p{
+  text-align: center;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 1.2vw;
+
+}
+.prenota h1{
+  font-size: 3vw;
+}
+
+.patterndivisore{
+  width: 100%;
+  margin-top: 4vw;
+}
+
+.sfondo {
+  background: burlywood;
+  padding: 5vw 0;
+  margin-top: 10vw;
+}
+
+.sfondo .immagine1 {
+  display: table-cell;
+  width: auto;
+  background: url(immagini/immagineprenotazione.jpg);
+  background-size: cover;
+}
+
+.sfondo .contenitoreform {
+  display: table;
+  max-width: 100vw;
+  width: 90%;
+  margin: 0 auto;
+  
+  
+}
+
+.sfondo form {
+  display: table-cell;
+  width: 30vw;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c;
+  
+}
+
+.sfondo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 7vw;
+}
+
+.sfondo form .form-prenota {
+  background: transparent;
+  border: none;
+  border-bottom: 0.1vw solid burlywood;
+  color: inherit;
+  height: 4vw;
+  
+  
+}
+.prenotabtn{
+  padding: 1vw 3vw;
+  background-color: burlywood;
+  border: hidden;
+  font-weight: 700;
+  
+}
+.h6prenota{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.collezioni p{
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.collezioni1{
+  margin-top: 6vw;
+  display: flex;
+
+}
+.collezioni1 img{
+  width: 20vw;
+  display: inline-block;
+  height: auto;
+  border: solid 3px burlywood;
+
+}
+
+.collezioniimg{
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+}
